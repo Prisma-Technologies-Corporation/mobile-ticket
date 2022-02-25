@@ -3624,6 +3624,7 @@ var MobileTicketAPI = (function () {
           MobileTicketAPI.visitInformation.serviceName = data.currentVisitService.serviceExternalName;
           MobileTicketAPI.visitInformation.clientId = "XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX"
           MobileTicketAPI.visitInformation.checksum = data.checksum;
+          MobileTicketAPI.visitInformation.currentStatus = data.currentStatus;
           var eventData = {};
           var eventName = "CREATE_MT_VISIT";
           eventData.param = "MT_VISIT";
