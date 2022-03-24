@@ -117,11 +117,11 @@
   },
   "show_queue_position": {
     "value": "enable",
-    "description": "show or hide queue and queue position in the ticket"
+    "description": "Show or hide queue and queue position in the ticket"
   },
   "show_appointment_time": {
     "value": "disable",
-    "description": "show or hide appointment time in the appointment ticket. If both show_queue_position and show_appointment_time are enabled, only appointment time will be shown"
+    "description": "Show or hide appointment time in the appointment ticket. If both show_queue_position and show_appointment_time are enabled, only appointment time will be shown"
   },
   "show_number_of_waiting_customers": {
     "value": "enable",
@@ -129,11 +129,11 @@
   },
   "appointment_late": {
     "value": 30,
-    "description": " How long is the customer allowed to arrive for his appointment (in minutes)"
+    "description": "How long is the customer allowed to arrive for his appointment (in minutes)"
   },
   "appointment_early": {
     "value": 180,
-    "description": " How early is the customer allowed to arrive for his appointment (in minutes)"
+    "description": "How early is the customer allowed to arrive for his appointment (in minutes)"
   },
   "timeFormat": {
     "value": "HH:mm",
@@ -234,11 +234,11 @@
     "value": {
       "logo": {
         "value": "disable",
-        "description": "show or hide the brand logo on the footer, enable = show, disable = hide"
+        "description": "Show or hide the brand logo on the footer, enable = show, disable = hide"
       },
       "custom_text": {
         "value": "",
-        "description": "show customize text on the footer, an empty value will hide the footer"
+        "description": "Show customize text on the footer, an empty value will hide the footer"
       }
     },
     "description": "Show or hide footer of the mobile ticket"
